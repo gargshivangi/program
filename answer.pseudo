@@ -1,0 +1,8 @@
+<?php
+function generate($name)
+{
+$val= rand(6,15);
+echo $r=$name.$val;
+}
+echo generate("garg");
+?>
